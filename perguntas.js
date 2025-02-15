@@ -1,5 +1,5 @@
 criaCartao(
-    '📅o',
+    '📅',
     'Que dia que nós conhecemos?',
     '6 de junho'
 )
