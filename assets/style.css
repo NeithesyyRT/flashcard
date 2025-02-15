@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url('img/bg-romantico.webp') no-repeat center center fixed;
+    background: url('img/bg-coracoes.webp') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Dancing Script', cursive;
 }
@@ -106,11 +106,12 @@ footer p {
 
 @media (max-width: 560px) {
     body {
-        background: url('img/bg-romantico-mobile.webp'), no-repeat cover;
+        background: url('img/bg-romantico-mobile.webp') no-repeat center center fixed;
+        background-size: cover;
     }
 
     .cartao {
-        flex: 1 0 calc(100% - 1rem)
+        flex: 1 0 calc(100% - 1rem);
     }
 
     .cartao__conteudo h3 {
